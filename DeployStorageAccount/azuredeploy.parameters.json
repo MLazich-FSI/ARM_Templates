@@ -2,8 +2,14 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccountName": {
-            "value": "SampleName"
+        "storageNamePrefix": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "storageSKU": {
+            "value": "Standard_GRS"
+        },
+        "location": {
+            "value": "" // TODO: Fill in parameter value
         }
     }
 }
