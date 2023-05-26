@@ -18,7 +18,7 @@
             "name": "[parameters('storageAccountName')]",
             "location": "East US",
             "sku": {
-                "name": "Standard_LRS"
+                "name": "Standard_GRS"
             },
             "kind": "BlobStorage",
             "properties": {
